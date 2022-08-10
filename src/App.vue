@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <el-container class="app-Out-pannel">
-      <el-header class="sys-header">系统标题</el-header>
+      <el-header class="sys-header">项目一张图开发系统</el-header>
       <el-container class="app-Content-pannel">
-        <el-aside width="200px">左侧菜单</el-aside>
+        <el-aside width="200px" class="sys-menu">左侧菜单</el-aside>
         <el-main>地图区域</el-main>
       </el-container>
     </el-container>
@@ -36,5 +36,12 @@ body,
 
 .sys-header {
   background-color: #409EFF;
+  line-height: 60px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sys-menu {
+  background-color: #C0C4CC;
 }
 </style>
